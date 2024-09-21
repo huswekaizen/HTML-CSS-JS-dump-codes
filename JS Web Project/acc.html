@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>My Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="acc.js"></script>
+<body>
+    <div class="container">
+        <header>
+            <h1>this is header</h1>
+        </header>
+        <div class="main">
+            <div class="accLeft">
+                <div class="accLeftText">
+                    <h2>Sign up</h2>
+                    <h3>We are happy to <span> Work with you!</span></h3><br>
+                </div>
+                <div class="account">
+                    <label for="nameInput" class="LabelText">New Username</label><br>
+                    <input type="text" placeholder="Enter New Username" class="InputText" id="nameInput"><br>
+
+                    <label for="emailInput" class="LabelText">New Email</label><br>
+                    <input type="text" placeholder="Enter New Email" class="InputText" id="emailInput"><br>
+                    
+                    <div class="NewPass">
+                        <label for="passInput" class="LabelText">New Password</label><br>
+                        <input type="password" placeholder="Enter New Password" class="InputText" id="passInput"><br>
+                        <input type="checkbox" onclick="myFunction()" class="checkbox" id="checkboxBtn">
+                    </div>
+
+                    <div class="ConPass">
+                        <label for="conpassInput" class="LabelText">Confirm Password</label><br>
+                        <input type="password" placeholder="Confirm New Password" class="InputText" id="conpassInput"><br>
+                        <input type="checkbox" onclick="myFunction1()" class="checkbox1" id="checkboxBtn">
+                    </div>
+                    
+                    
+                    <h2 id="h2Text"></h2>
+
+                    <a id="accBtn" onclick="myFunction2()"><button class="accBtn">Create my Account</button></a>
+                    <p><a href="">Already have an account?</a></p>
+                </div>          
+            </div>
+
+            <div class="accRight">
+                <div class="accRightText">
+                    <h1>Let's Get Started! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                </div>
+                <img src="" alt="">
+
+            </div>
+            
+        </div>       
+
+    </div>
+</body>
+</html>
